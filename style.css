@@ -1,0 +1,46 @@
+.head{
+    background-color: var(--head-backgroud);
+    font-style: normal;
+    font-family: Roboto;
+}
+.head-home, .head-buton, .head-comments, .head-item, .head-image, .head-search{
+    display: inline-block;
+}
+.head-home, .head-buton, .head-comments, .head-image{
+    cursor: pointer;
+}
+.head-search{
+    margin-left: 750px;
+}
+.head-image{
+    height: 25px;
+    width: 25px;
+}
+.head-buton{
+    background-color: var(--head-backgroud);
+    border-style: none;
+    font-size: 20px;
+    margin-left: 100px;
+}
+.head-home,.head-comments{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+.head-comments{
+    margin-left: 100px;
+}
+.head-list{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+}
+.head-home{
+    margin-left: 20px;
+}
+.head-item{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
