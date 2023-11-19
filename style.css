@@ -1,5 +1,10 @@
+.all{
+    background-image: url(./images/background.jpg);
+    background-attachment: scroll;
+    background-size: 1550px 720px;
+}
 .head{
-    background-color: var(--head-backgroud);
+    background-color: var(--head-background);
     font-style: normal;
     font-family: Roboto;
 }
@@ -17,7 +22,7 @@
     width: 25px;
 }
 .head-buton{
-    background-color: var(--head-backgroud);
+    background-color: inherit;
     border-style: none;
     font-size: 20px;
     margin-left: 100px;
@@ -42,5 +47,16 @@
 .head-item{
     margin-top: 10px;
     margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Welcome */
+.container{
+    margin: 0 auto;
+    padding: 0 15px;
+    outline: solid red 1px;
+    width: 1500px;
+}
+.welcome-slog,.welcome-text{
     text-align: center;
 }
