@@ -1,7 +1,9 @@
-.all{
-    background-image: url(./images/background.jpg);
+.box{
+    background-image: repeating-linear-gradient(red ,red 20px, orange 20px, orange 40px, yellow 40px ,yellow 60px, green 60px,green 80px, cyan 80px ,cyan 100px, blue 100px ,blue 120px, purple 120px ,purple 140px);
     background-attachment: scroll;
-    background-size: 1550px 720px;
+    width: 100%;
+    height: 140px;
+    margin-bottom: 50px;
 }
 .head{
     background-color: var(--head-background);
